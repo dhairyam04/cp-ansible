@@ -20,7 +20,7 @@ cd /usr/src && \
     sudo tar xzf Python-3.8.10.tgz && \
     cd Python-3.8.10 && \
     sudo ./configure --enable-optimizations && \
-    sudo make altinstall
+    sudo make install
 
 RUN apt-get update && \
     apt-get install --no-install-recommends --yes \
